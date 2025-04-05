@@ -20,9 +20,12 @@ import { highCeiling } from "./services/high-ceiling";
 import { janitorialService } from "./services/janitorial";
 import { petWasteService } from "./services/pet-waste";
 import { pressureWashingService } from "./services/pressure-washing";
+import { termsAndConditions } from "./terms-conditions";
 import { wasteManagementService } from "./services/waste-management";
 import { waterDamage } from "./services/water-damage";
 import { windowCleaningService } from "./services/window-cleaning";
+import { workOrderForm } from "./services/work-order";
+import { privacyPolicy } from "./privacy-policy";
 
 export const schemaTypes = [
     homeIntro, 
@@ -48,6 +51,9 @@ export const schemaTypes = [
     petWasteService,
     pressureWashingService,
     waterDamage,
+    workOrderForm,
+    termsAndConditions,
+    privacyPolicy,
     contact,
     footer
 ]
